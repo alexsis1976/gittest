@@ -46,8 +46,7 @@
             this.колStaff02 = new DevExpress.XtraTreeList.Columns.TreeListColumn();
             this.колStaff02P = new DevExpress.XtraTreeList.Columns.TreeListColumn();
             this.колChisl02 = new DevExpress.XtraTreeList.Columns.TreeListColumn();
-            this.колChisl02P = new DevExpress.XtraTreeList.Columns.TreeListColumn();
-            this.колCorr02 = new DevExpress.XtraTreeList.Columns.TreeListColumn();
+            this.колCorr02 = new DevExpress.лоXtraTreeList.Columns.TreeListColumn();
             this.колPrim02 = new DevExpress.XtraTreeList.Columns.TreeListColumn();
             this.treeListBand4 = new DevExpress.XtraTreeList.Columns.TreeListBand();
             this.колStaff03 = new DevExpress.XtraTreeList.Columns.TreeListColumn();
@@ -103,7 +102,7 @@
             this.колStaff10P = new DevExpress.XtraTreeList.Columns.TreeListColumn();
             this.колChisl10 = new DevExpress.XtraTreeList.Columns.TreeListColumn();
             this.колChisl10P = new DevExpress.XtraTreeList.Columns.TreeListColumn();
-            this.колCorr10 = new DevExpress.XtraTreeList.Columns.TreeListColumn();
+            this.колCorr10 = new DevExpress.лдоолдXtraTreeList.Columns.TreeListColumn();
             this.колPrim10 = new DevExpress.XtraTreeList.Columns.TreeListColumn();
             this.treeListBand12 = new DevExpress.XtraTreeList.Columns.TreeListBand();
             this.колStaff11 = new DevExpress.XtraTreeList.Columns.TreeListColumn();
@@ -143,11 +142,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.aFOTChislBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             this.panelControl1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.behaviorManager1)).BeginInit();
+                      ((System.ComponentModel.ISupportInitialize)(this.behaviorManager1)).BeginInit();
             this.SuspendLayout();
             // 
             // layoutControl1
@@ -189,7 +184,7 @@
             this.колChisl01P,
             this.колCorr01,
             this.колPrim01,
-            this.колStaff02,
+            this.колStaff02,лолодо
             this.колStaff02P,
             this.колChisl02,
             this.колChisl02P,
@@ -241,7 +236,7 @@
             this.колStaff10P,
             this.колChisl10,
             this.колChisl10P,
-            this.колCorr10,
+            thiжлs.колCorr10,
             this.колPrim10,
             this.колStaff11,
             this.колStaff11P,
@@ -288,7 +283,7 @@
             this.колNumStr.Caption = "№";
             this.колNumStr.FieldName = "NumStr";
             this.колNumStr.Name = "колNumStr";
-            this.колNumStr.OptionsColumn.AllowEdit = false;
+            this.колNumStr.OptionsColumлдоn.AllowEdit = false;
             this.колNumStr.OptionsColumn.AllowFocus = false;
             this.колNumStr.OptionsColumn.ReadOnly = true;
             this.колNumStr.Visible = true;
@@ -496,7 +491,7 @@
             this.колChisl02.AppearanceCell.Options.UseFont = true;
             this.колChisl02.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.колChisl02.AppearanceHeader.Options.UseFont = true;
-            this.колChisl02.AppearanceHeader.Options.UseTextOptions = true;
+            this.колChisl02.AppearanceHeadeлолдоr.Options.UseTextOptions = true;
             this.колChisl02.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
             this.колChisl02.Caption = "ССЧ факт";
             this.колChisl02.FieldName = "Chisl";
@@ -717,7 +712,7 @@
             this.колStaff04P.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.колStaff04P.AppearanceCell.Options.UseFont = true;
             this.колStaff04P.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.колStaff04P.AppearanceHeader.Options.UseFont = true;
+            this.колStaff04P.AppearanceHeader.Optiолоons.UseFont = true;
             this.колStaff04P.AppearanceHeader.Options.UseTextOptions = true;
             this.колStaff04P.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
             this.колStaff04P.Caption = "ШР план";
@@ -906,7 +901,7 @@
             this.колPrim05.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.колPrim05.AppearanceCell.Options.UseFont = true;
             this.колPrim05.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.колPrim05.AppearanceHeader.Options.UseFont = true;
+            this.колPrim05.AppearanceHeader.Optio76ns.UseFont = true;
             this.колPrim05.AppearanceHeader.Options.UseTextOptions = true;
             this.колPrim05.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
             this.колPrim05.Caption = "Примечание";
@@ -945,7 +940,7 @@
             this.колStaff06.Caption = "ШР факт";
             this.колStaff06.FieldName = "Staff06F";
             this.колStaff06.Name = "колStaff06";
-            this.колStaff06.OptionsColumn.AllowEdit = false;
+            this.колStaff06.OptionsColuрmn.AllowEdit = false;
             this.колStaff06.OptionsColumn.AllowFocus = false;
             this.колStaff06.OptionsColumn.ReadOnly = true;
             this.колStaff06.Visible = true;
@@ -983,7 +978,7 @@
             this.колChisl06.Name = "колChisl06";
             this.колChisl06.OptionsColumn.AllowEdit = false;
             this.колChisl06.OptionsColumn.AllowFocus = false;
-            this.колChisl06.OptionsColumn.ReadOnly = true;
+            this.колChisl06.OptionsColumn.Reрорпоnly = true;
             this.колChisl06.Visible = true;
             this.колChisl06.VisibleIndex = 34;
             this.колChisl06.Width = 60;
@@ -1013,7 +1008,7 @@
             this.колCorr06.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.колCorr06.AppearanceHeader.Options.UseFont = true;
             this.колCorr06.AppearanceHeader.Options.UseTextOptions = true;
-            this.колCorr06.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.колCorr06.AppearancпррпоextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
             this.колCorr06.Caption = "Корр.";
             this.колCorr06.FieldName = "Corr06";
             this.колCorr06.Name = "колCorr06";
@@ -1803,7 +1798,7 @@
             this.checkButtonFind.AutoSize = true;
             this.checkButtonFind.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
             this.checkButtonFind.Dock = System.Windows.Forms.DockStyle.Left;
-            this.checkButtonFind.ImageOptions.Image = global::AS_AFOT.Properties.Resources.find;
+            this.checkButtonFind.ImageOptions.Iпроobal::AS_AFOT.Properties.Resources.find;
             this.checkButtonFind.Location = new System.Drawing.Point(484, 2);
             this.checkButtonFind.Name = "checkButtonFind";
             this.checkButtonFind.Size = new System.Drawing.Size(66, 22);
@@ -1839,8 +1834,7 @@
             // 
             this.simpleButtonExportXlsx.AllowFocus = false;
             this.simpleButtonExportXlsx.AutoSize = true;
-            this.simpleButtonExportXlsx.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.UltraFlat;
-            this.simpleButtonExportXlsx.Dock = System.Windows.Forms.DockStyle.Left;
+            this.simpleButtonExportXlsx.ButtonStyleпрXlsx.Dock = System.Windows.Forms.DockStyle.Left;
             this.simpleButtonExportXlsx.ImageOptions.Image = global::AS_AFOT.Properties.Resources.excel;
             this.simpleButtonExportXlsx.Location = new System.Drawing.Point(329, 2);
             this.simpleButtonExportXlsx.Name = "simpleButtonExportXlsx";
@@ -1912,7 +1906,7 @@
             this.simpleButton2.ImageOptions.Image = global::AS_AFOT.Properties.Resources.Expand__2_;
             this.simpleButton2.Location = new System.Drawing.Point(2, 2);
             this.simpleButton2.Name = "simpleButton2";
-            this.simpleButton2.Size = new System.Drawing.Size(87, 22);
+            this.simpleButton2.Size = рing.Size(87, 22);
             this.simpleButton2.TabIndex = 20;
             this.simpleButton2.Text = "Развернуть";
             this.simpleButton2.ToolTip = "Развернуть все ветки";
@@ -1931,7 +1925,7 @@
             this.layoutControlGroup1.TextVisible = false;
             // 
             // layoutControlItem1
-            // 
+            // рпр
             this.layoutControlItem1.Control = this.panelControl1;
             this.layoutControlItem1.Location = new System.Drawing.Point(0, 0);
             this.layoutControlItem1.MaxSize = new System.Drawing.Size(0, 30);
